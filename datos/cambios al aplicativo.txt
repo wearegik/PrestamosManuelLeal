@@ -1,0 +1,32 @@
+colocar fecha arriba de nombre y debajo de cuotas en procesarpago.php
+
+prestamos se desaparecen en normales
+
+busquedacliente.php    el prestamo se hizo a nombre de, aparece siempr emilton barajas
+
+
+clientes.php     que aparezcan clientes solo que tienen prestamos rapidos
+
+
+meses2.php      colocar un campo de intereses que diga cuantos intereses me han pagado
+
+intereses = 5%
+
+Procesarpago.php       valor interes y campo    valor del interes
+
+
+
+intereses pagados
+
+
+campo arriba que diga valor del interes
+
+
+procesarpago.php     quitar la hora en abonos pagados.
+
+
+procesarcliente.php    modificar telefono
+
+
+
+

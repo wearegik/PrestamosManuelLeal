@@ -1,0 +1,72 @@
+<html>
+<head>
+  <title>Gestion de Prestamos Manuel Leal</title>  
+  <link rel="stylesheet" href="css/estilos.css">
+<meta name="tipo_contenido"  content="text/html;" http-equiv="content-type" charset="utf-8">
+</head>
+<body>
+<form  class="contact_form" action="procesar.php" id="contact_form" runat="server" method="post" enctype="multipart/form-data">  
+        <div>  
+            <ul>  
+                <li>  
+                    <h2>Cliente</h2>  
+                    <span class="required_notification">* Datos requeridos</span>  
+                </li>  
+                <li>  
+                    <label for="Nombres">Nombres:</label>  
+                    <input type="text" name="Nombres" placeholder="Nombres Clientes" required />  
+                </li>  
+                <li>  
+                    <label for="Apellidos">Apellidos:</label>  
+                    <input type="text" name="Apellidos" placeholder="Apellidos Clientes" required />  
+                </li> 
+                <li>  
+                    <label for="Direccion">Dirección:</label>  
+                    <input type="text" name="Direccion" placeholder="Dirección del cliente" required />  
+                </li>
+
+                <li>  
+                    <label for="Correo">Email:</label>  
+                    <input type="email" name="Correo" placeholder="cliente@correo.com" required />  
+                    <span class="form_hint">Formato correcto: "nombre@algo.com"</span>  
+                </li>  
+                <li>  
+                    <label for="Cedula">Cedula:</label>  
+                    <input type="text" name="Cedula" placeholder="Cedula del Cliente"  />  
+                    <span class="form_hint">Formato correcto: "106785675"</span>  
+                </li> 
+
+                <li>  
+                    <label for="Telefono">Telefono:</label>  
+                    <input type="text" name="Telefono" placeholder="Telefono del Cliente"  />  
+                    <span class="form_hint">Formato correcto: "3110000000"</span>  
+                </li>  
+
+                <li>  
+                    <label for="Telefono">Foto:</label>  
+                    <input type="file" class="file" name="imagen" placeholder="Foto del Cliente"  />  
+                    <span class="form_hint">Formato correcto: "Cualquier Imgern"</span>  
+                </li>    
+                 
+                <li>  
+                    <button class="submit" type="submit">Agregar</button>  
+
+                    
+                </li>  
+            </ul>  
+        </div>  
+    </form> 
+
+
+    <form  class="contact_form" action="index.html" id="contact_form" runat="server">  
+        <div>  
+            <ul>  
+                <li>  
+                    <button class="submit" type="submit">Inicio</button>     
+                </li>   
+            </ul>  
+        </div>  
+    </form>   
+     <a href="javascript:history.back()">Regresar</a>
+    </body>
+    </html>
