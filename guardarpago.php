@@ -26,7 +26,7 @@ include("conexion.php");
         $sql_prestamo   = mysql_query($query_prestamo, $conexion);
         $row_prestamo   = mysql_fetch_array($sql_prestamo);
 
-        if ( $row_abono['valortotal'] >= ($row_prestamo['Valor']*($row_prestamo['Interes']/100)+$row_prestamo['Valor']))
+        if ( $row_abono['valortotal'] >= ($row_prestamo['Valor']))
         {
         	$query_pago = 'UPDATE prestamo SET estado="1" WHERE idprestamo = '.$_POST['id'];
        	 	$sql_pago = mysql_query($query_pago, $conexion);
